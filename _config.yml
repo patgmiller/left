@@ -1,10 +1,10 @@
 permalink: /posts/:title
 markdown: kramdown
-
+  input: GFM
 gems:
   - jekyll-sitemap
 
-name: Zach Holman
-url: https://zachholman.com/left
-description: A fantastic blog that is fantastic.
-twitter: holman
+name: Patrick Miller
+url: http://zachholman.com/left
+description: >console.log($patrick_brain);
+twitter: patgmiller
