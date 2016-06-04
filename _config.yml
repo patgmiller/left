@@ -1,10 +1,14 @@
+github: [metadata]
 permalink: /posts/:title
-markdown: kramdown
+kramdown:
   input: GFM
+  hard_wrap: false
 gems:
   - jekyll-sitemap
+  - jekyll-coffeescript
+  - jekyll-paginate
 
 name: Patrick Miller
 url: https://patgmiller.github.io
-description: >console.log($patrick_brain);
+description: console.log($patrick_brain);
 twitter: patgmiller
