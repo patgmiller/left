@@ -27,6 +27,6 @@ We have two rather exuberant and imaginative children Zachariah, and Olivia. Ray
 
 > Halfhearted compliance is better than wholehearted defiance!
 
-We are all still alive and each day is a new adventure. I must admit I once had parenting theory's that I thought were sound and well grounded ... I no longer have any theory's. :smirk:
+We are all still alive and each day is a new adventure. I must admit I once had parenting theories that I thought were sound and well grounded ... I no longer have any theories. :smirk:
 
 ![Miller Family](/uploads/2008/12/MG_4498-Edit-e1298532514844-265x300.jpg)
