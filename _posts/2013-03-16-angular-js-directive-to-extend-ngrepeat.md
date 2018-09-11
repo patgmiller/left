@@ -28,14 +28,14 @@ tags:
 comments: []
 ---
 ## Angular.js JavaScript Framework
-Recently I started a social [Phone Gap](http://phonegap.com/) project for a client and decided it would be wise to use a JavaScript framework. It was first suggested that I look into Backbone.js. I investigated it and did a little research and digging. I looked at Backbone.js, jQuery Mobile, Ember.js, various others, and [Angular.js](http://angularjs.org/). The long and the short is I read a slew of reviews, some documentation, a bunch or tutorials, and in the end I decided to go with Angular.js for my framework of choice.
+Recently I started a social [Phone Gap](http://phonegap.com/){:target="_blank"} project for a client and decided it would be wise to use a JavaScript framework. It was first suggested that I look into Backbone.js. I investigated it and did a little research and digging. I looked at Backbone.js, jQuery Mobile, Ember.js, various others, and [Angular.js](http://angularjs.org/){:target="_blank"}. The long and the short is I read a slew of reviews, some documentation, a bunch or tutorials, and in the end I decided to go with Angular.js for my framework of choice.
 
 I've spent the last 2+ years developing in Python / Django and I found Angular.js to be familiar and very enjoyable to work in. The actual project I selected it for will be called 'Dealtribus'. The client's core concept is that business entrepreneurs and the like can use this to network their business deals. Similar to Linkedin only for deals instead of job networking.
 
 ![Mobile Login](/uploads/2013/03/Dealtribus-174x300.png)
 
 ## Slider View
-One of the clients requirements was that they be able to browse through the list of deal result summaries one at a time by swiping left and right to navigate between each one. I approached this by selecting a responsive JavaScript [jQuery slider plugin](http://www.woothemes.com/flexslider/) and building the list of results using the Angular.js [ngRepeat](http://docs.angularjs.org/api/ng.directive:ngRepeat) directive.
+One of the clients requirements was that they be able to browse through the list of deal result summaries one at a time by swiping left and right to navigate between each one. I approached this by selecting a responsive JavaScript [jQuery slider plugin](http://www.woothemes.com/flexslider/){:target="_blank"} and building the list of results using the Angular.js [ngRepeat](http://docs.angularjs.org/api/ng.directive:ngRepeat){:target="_blank"} directive.
 
 ### HTML Partials
 {% highlight html %}
@@ -69,7 +69,7 @@ var DealListSummaryCtrl = ['$scope', '$routeParams', 'Deal', function($scope, $r
 
 Right now is a very basic controller which retrieves the Deal models and passes them to the view in the `$scope`. Simply put the deals will be listed using the ngRepeat directive as seen in the `_list-summary.html` as `ng-repeat="deal in deals"`. The only problem was there is no event emitted when the repeat part is complete. There is an event fired for the **ng-incldue** directive in the first template, which is `$includeContentLoaded`, it however was firing before the repeat directive had finished and so the slider plugin wouldn't initialize everything correctly.
 ### Directives
-You can create your own [directives](http://docs.angularjs.org/guide/directive) for just about anything. In this case I needed one that would fire / emit an event after the loop had finished.
+You can create your own [directives](http://docs.angularjs.org/guide/directive){:target="_blank"} for just about anything. In this case I needed one that would fire / emit an event after the loop had finished.
 
 {% highlight javascript %}
 /** app/js/directves.js **/

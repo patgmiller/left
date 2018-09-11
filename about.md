@@ -21,7 +21,7 @@ comments: []
 ---
 ![Patrick &amp; Raylene](/uploads/2008/12/dsc_9131_edited-1-modified11-300x199.jpg)
 
-I currently live in Utah and was born in California. I am happily married to my wife Raylene. We were married on Friday January, 24 2003 in the [Oakland, California Temple](https://www.lds.org/temples/details/oakland-california-temple) of The Church of Jesus Christ of Latter-Day Saints.
+I currently live in Utah and was born in California. I am happily married to my wife Raylene. We were married on Friday January, 24 2003 in the [Oakland, California Temple](https://www.lds.org/temples/details/oakland-california-temple){:target="_blank"} of The Church of Jesus Christ of Latter-Day Saints.
 
 We have two rather exuberant and imaginative children Zachariah, and Olivia. Raylene and I pretty much jumped into parenthood with them and although after bringing them home I coined this phrase for my parenting motto:
 

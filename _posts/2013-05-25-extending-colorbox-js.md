@@ -23,7 +23,7 @@ tags:
 comments: []
 ---
 ## Colorbox.js
-[Colorbox](http://www.jacklmoore.com/colorbox/) is a very flexible lightbox plugin for jQuery which I have used for 2 to 3 years now and found virtually no limitations to what I've wanted to do with it. I've used it for many things like simple image previews, custom image cropping, image file uploads, as well as custom product checkout processes.
+[Colorbox](http://www.jacklmoore.com/colorbox/){:target="_blank"} is a very flexible lightbox plugin for jQuery which I have used for 2 to 3 years now and found virtually no limitations to what I've wanted to do with it. I've used it for many things like simple image previews, custom image cropping, image file uploads, as well as custom product checkout processes.
 
 <!--more-->
 ## Resizing Colorbox Behavior
