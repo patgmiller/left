@@ -10,13 +10,6 @@ author:
   url: ''
 author_login: admin
 author_email: patrick@millermoments.net
-excerpt: "Angular.js JavaScript Framework\r\n\r\nRecently I started a social Phone
-  Gap project for a client and decided it would be wise to use a JavaScript framework.
-  It was first suggested that I look into Backbone.js. I investigated it and did a
-  little research and digging. I looked at Backbone.js, jQuery Mobile, Ember.js, various
-  others, and Angular.js. The long and the short is I read a slew of reviews, some
-  documentation, a bunch or tutorials, and in the end I decided to go with Angular.js
-  for my framework of choice."
 wordpress_id: 433
 wordpress_url: http://his.millermoments.net/?p=433
 date: '2013-03-16 01:07:08 -0600'
@@ -29,6 +22,7 @@ comments: []
 ---
 ## Angular.js JavaScript Framework
 Recently I started a social [Phone Gap](http://phonegap.com/){:target="_blank"} project for a client and decided it would be wise to use a JavaScript framework. It was first suggested that I look into Backbone.js. I investigated it and did a little research and digging. I looked at Backbone.js, jQuery Mobile, Ember.js, various others, and [Angular.js](http://angularjs.org/){:target="_blank"}. The long and the short is I read a slew of reviews, some documentation, a bunch or tutorials, and in the end I decided to go with Angular.js for my framework of choice.
+<!--more-->
 
 I've spent the last 2+ years developing in Python / Django and I found Angular.js to be familiar and very enjoyable to work in. The actual project I selected it for will be called 'Dealtribus'. The client's core concept is that business entrepreneurs and the like can use this to network their business deals. Similar to Linkedin only for deals instead of job networking.
 
