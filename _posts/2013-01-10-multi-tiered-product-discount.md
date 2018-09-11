@@ -22,7 +22,6 @@ tags:
 - cart
 comments: []
 ---
-## Multi-Tiered Bulk Discounts
 Last year I was given the challenge of adding multiple tiered discounts, simply put as bulk discounts on a large scale custom shopping cart system. The goal was to provide shop owners with the ability to give their customers discounts for buying any product in bulk and that could be configured on a per-product basis.
 
 This shopping cart system hosted multiple stores,upwards of around 30,000 users and grows each month by several hundred. Also each product is setup in a group, when enabled these discounts could be one of two types: Fixed, Compound.

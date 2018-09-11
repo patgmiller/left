@@ -20,7 +20,6 @@ tags:
 - Angular.js
 comments: []
 ---
-## Angular.js JavaScript Framework
 Recently I started a social [Phone Gap](http://phonegap.com/){:target="_blank"} project for a client and decided it would be wise to use a JavaScript framework. It was first suggested that I look into Backbone.js. I investigated it and did a little research and digging. I looked at Backbone.js, jQuery Mobile, Ember.js, various others, and [Angular.js](http://angularjs.org/){:target="_blank"}. The long and the short is I read a slew of reviews, some documentation, a bunch or tutorials, and in the end I decided to go with Angular.js for my framework of choice.
 <!--more-->
 
