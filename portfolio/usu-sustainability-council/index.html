@@ -1,0 +1,33 @@
+---
+layout: page
+status: publish
+published: false
+title: USU Sustainability Council
+author:
+  display_name: Patrick
+  login: admin
+  email: patrick@millermoments.net
+  url: ''
+author_login: admin
+author_email: patrick@millermoments.net
+wordpress_id: 127
+wordpress_url: http://his.millermoments.net/?page_id=127
+date: '2011-02-24 02:54:23 -0700'
+date_gmt: '2011-02-24 06:54:23 -0700'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<p>[caption id="attachment_71" align="alignleft" width="300" caption="USU Sustainability"]<img class="size-medium wp-image-71 " title="USU Sustainability website" src="http:&#47;&#47;his.millermoments.net&#47;wp-content&#47;uploads&#47;2009&#47;04&#47;sustainability1-300x242.png" alt="USU Sustainability website" width="300" height="242" &#47;>[&#47;caption]</p>
+<p><strong>Location:<&#47;strong> <a title="Sustainability Council" href="http:&#47;&#47;sustainability.usu.edu" target="_blank">http:&#47;&#47;sustainability.usu.edu<&#47;a>.</p>
+<p><strong>Description:<&#47;strong> The site was created to encourage environmental and personal health awareness primarily to the students on the Utah State University campus in Logan, Utah, and second to anyone else who might be interested.</p>
+<p>The sustainability web site was the second project I worked on while on the Programming &amp; Design Team (PAD) for USU Information Technology. Two designers from our team coordinated with the customer to determine an approved final design at which point I arrive on the scene and sliced up the design to make it web presentable and voila,  a brand new aesthetically pleasing product for a <em>healthy<&#47;em> online presence.</p>
+<p>The Sustainability Council requested that PAD create them a site for one main reason, it would be done in <a title="ezPlug" href="http:&#47;&#47;it.usu.edu&#47;pad&#47;htm&#47;ezplug" target="_blank">ezPlug<&#47;a>, the PAD team's Content Management System (<a title="Content Managment Systems" href="http:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Content_management_system" target="_blank">CMS<&#47;a>). ezPlug is an in house CMS application that was initially created by <a title="Jay McEntire" href="http:&#47;&#47;jaymcentire.com&#47;" target="_blank">Jay McEntire<&#47;a>, the Team Coordinator, and has continued to grow through the efforts of Jay and other team members. ezPlug is a Colfusion multi-site CMS and has over 300 sites hosted on it.</p>
+<p><strong>My Contribution:<&#47;strong> The customer made a two specific requests while I was building their site. The first one was to have an expanding and collapsing navigation area on the left hand side navigation which a simple thing. The second was to have randomly generated content on their home page as well as random images in key areas of their site, normally this is no big deal but remember  we are dealing with a CMS which means the user is generating the all content, not us and we don't want to do it for them. We were also in the process of hiring a couple student programmers and needed a documented way of developing sites in ezPlug, because as of yet every site accessed the ezPlug objects directly instead of having a single point of reference.</p>
+<ul>
+<li>HTML&#47;CSS - I wrote all the code for the site, using  Fireworks to slice up the Photoshop design by Adam Black, as well as  implemented the code in Coldfusion to integrate with ezPlug.<&#47;li>
+<li>theTemplate.cfc - Initially, I just wanted to learn Coldfusion's OOP better so I suggested to one of our other developers, Randy Merrill, that I could write a component for the site (just like a class for C++). From there Randy and myself developed <em>theTemplate.cfc<&#47;em> which is an abstraction or API of all the core ezPlug components.<&#47;li>
+<li>Random Content Solution - Don't reinvent the wheel, just reuse code! Actually, my idea was that we that we define a new navigation type that is not utilized by the site's template so that users can create and mange their pages just the same but instead of building links or pages based on the url, the home page would be script that calls our theTemplate.cfc to grab one of the content pages for the new navigation type.<&#47;li>
+<li>Random Images - We added a page attribute which a user could enter the name of a folder in their image directory, where they had placed any image file types, and theTemplate.cfc would check for the existence of a folder, and create if it did not exist, finally check for images.<&#47;li><br />
+<&#47;ul></p>

@@ -1,0 +1,12 @@
+version: '3.5'
+
+services:
+  jekyll:
+    image: bretfisher/jekyll-serve
+    command: [ "bundle", "exec", "jekyll", "serve", "--force_polling", "-H", "0.0.0.0", "-P", "4000", "${EXTRA_FLAGS}"]
+    volumes:
+      - .:/site
+    ports:
+      - '80:4000'
+    environment:
+      EXTRA_FLAGS: ${EXTRA_FLAGS}

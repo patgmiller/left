@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="home">
+  <h1>Posts</h1>
+
+  <!-- This loops through the paginated posts -->
+  <ul class="post-list">
+  {% for post in paginator.posts %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+      <div class="content">
+        {{ post.excerpt }}
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
+
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.page > 1 %}
+      <a href="/blog/" class="first">&laquo;</a>
+    {% endif %}
+
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">{{ paginator.page | minus: 1 }}</a>
+    {% endif %}
+
+    <span class="page_number ">{{ paginator.page }}</span>
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">{{ paginator.page | plus: 1 }}</a>
+    {% endif %}
+
+    {% if paginator.page < paginator.total_pages %}
+      <a href="{{ site.paginate_path | relative_url | replace: ':num', paginator.total_pages }}" class="last">&raquo;</a>
+    {% endif %}
+  </div>
+</div>

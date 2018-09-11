@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: It's Miller Time!
+title: His Miller Moments
 email: patrick@millermoments.net
 description: > # this means to ignore newlines until "baseurl:"
   Web playground of Patrick Miller, loving husband, devoted (yet sometimes annoying) father, and web enthusiast.
@@ -14,16 +14,38 @@ baseurl: "" # the subpath of the site, e.g. /blog
 url: https://patgmiller.github.io
 
 name: Patrick Miller
-twitter_username: patgmiller
+# twitter_username: patgmiller
 github_username:  patgmiller
 gravatar_url: https://avatars0.githubusercontent.com/u/3914379
 
 # Build settings
+# theme: jekyll-material-theme
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-coffeescript
   - jekyll-paginate
+  - jekyll-feed
+  - jemoji
+
+  # Outputting
+paginate: 5
+paginate_path: /blog/page-:num
+
+excerpt_separator: <!--more-->
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - docker-compose.yml
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
